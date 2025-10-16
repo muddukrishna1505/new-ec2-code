@@ -1,0 +1,8 @@
+aws_region        = "us-east-1"
+aws_profile       = "default"
+instance_name     = "test-server"
+instance_type     = "t3.micro"
+ami_id            = "ami-0e2c8caa4b6378d8c"
+key_name          = "krish"
+subnet_id         = "subnet-08d47405004b79106"
+security_group_id = "sg-09148ba88e0d860b8"
