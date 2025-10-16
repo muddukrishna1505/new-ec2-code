@@ -32,7 +32,7 @@ resource "aws_instance" "jenkins_server" {
 
   tags = {
     Name        = "Jenkins-Server"
-    Environment = "dev"
+    Environment = "prod"
     ManagedBy   = "Terraform"
   }
 }
