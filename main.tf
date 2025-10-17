@@ -34,6 +34,7 @@ resource "aws_instance" "jenkins_server" {
     Name        = "Jenkins-Server"
     Environment = "prod"
     ManagedBy   = "Terraform"
+    role        = "jenkins-server"
   }
 }
 
